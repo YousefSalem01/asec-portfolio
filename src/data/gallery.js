@@ -1,0 +1,58 @@
+export const galleryCategories = ['Infrastructure', 'Control Rooms', 'Panels & Switchgear', 'SCADA & Design', 'Solar']
+
+const g = (src, caption, category) => ({ src: `/images/${src}.webp`, caption, category })
+
+export const gallery = [
+  g('infra-team', 'ASA site engineers — Sarai, New Cairo', 'Infrastructure'),
+  g('infra-survey', 'Site coordination on MNHD infrastructure', 'Infrastructure'),
+  g('infra-ducts', 'Laying cable ducts', 'Infrastructure'),
+  g('infra-cable-spacers', 'Duct bank spacer installation', 'Infrastructure'),
+  g('infra-manhole', 'Manhole installation', 'Infrastructure'),
+  g('infra-ducts-2', 'Duct bank preparation', 'Infrastructure'),
+  g('infra-trench', 'Cable trench works', 'Infrastructure'),
+  g('infra-excavator', 'Excavation for MV network', 'Infrastructure'),
+  g('infra-loader', 'Earthworks and site grading', 'Infrastructure'),
+
+  g('ccr-curved', 'Central control room — cement plant', 'Control Rooms'),
+  g('ccr-wide', 'Operator consoles', 'Control Rooms'),
+  g('ccr-team', 'CCR commissioning', 'Control Rooms'),
+  g('ccr-operators', 'Control room in operation', 'Control Rooms'),
+  g('ccr-africa', 'CCR — Hima Cement, Uganda', 'Control Rooms'),
+  g('ccr-desk', 'Multi-screen operator desk', 'Control Rooms'),
+  g('ccr-modern', 'New CCR delivered', 'Control Rooms'),
+  g('ccr-operator', 'Plant operators on SCADA', 'Control Rooms'),
+  g('ccr-room', 'Control room with video wall', 'Control Rooms'),
+  g('ccr-engineers', 'Engineering team on site', 'Control Rooms'),
+  g('ccr-console', 'Curved console installation', 'Control Rooms'),
+  g('console-build', 'Custom console fabrication', 'Control Rooms'),
+
+  g('switchgear', 'MV switchgear line-up', 'Panels & Switchgear'),
+  g('switchgear-room', 'Switchgear room', 'Panels & Switchgear'),
+  g('mcc-corridor', 'MCC room', 'Panels & Switchgear'),
+  g('plc-cabinets', 'PLC & I/O cabinets', 'Panels & Switchgear'),
+  g('plc-modules', 'Siemens PLC modules', 'Panels & Switchgear'),
+  g('panel-row', 'Control panel line-up', 'Panels & Switchgear'),
+  g('panel-wiring', 'Panel wiring', 'Panels & Switchgear'),
+  g('breakers', 'Distribution breakers', 'Panels & Switchgear'),
+  g('mcc-plant', 'MCC installed at plant', 'Panels & Switchgear'),
+  g('panel-assembly', 'Panel assembly in our workshop', 'Panels & Switchgear'),
+  g('workshop-panels', 'Panels under assembly', 'Panels & Switchgear'),
+  g('plc-rack', 'Redundant PLC rack', 'Panels & Switchgear'),
+  g('drives-cabinet', 'Drive cabinets', 'Panels & Switchgear'),
+
+  g('scada-kiln', 'Kiln SCADA screen', 'SCADA & Design'),
+  g('scada-raw-mill', 'Raw mill process graphic', 'SCADA & Design'),
+  g('scada-feed', 'Raw mill feed', 'SCADA & Design'),
+  g('scada-clinker', 'Clinker extraction', 'SCADA & Design'),
+  g('scada-siemens', 'Siemens PCS 7 overview', 'SCADA & Design'),
+  g('scada-plant', 'Plant overview graphic', 'SCADA & Design'),
+  g('ccr-render-1', 'CCR design render', 'SCADA & Design'),
+  g('ccr-render-2', 'CCR design render', 'SCADA & Design'),
+
+  g('solar-tracker', 'Single-axis tracker installation', 'Solar'),
+  g('solar-site-team', 'ASA team on a PV site', 'Solar'),
+  g('solar-row', 'PV array', 'Solar'),
+  g('solar-under', 'Module rows', 'Solar'),
+  g('solar-field', 'PV field', 'Solar'),
+  g('solar-hotel', 'Rooftop PV design — hospitality', 'Solar'),
+]
